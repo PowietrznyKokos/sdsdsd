@@ -1,34 +1,108 @@
-html body {
-    margin: 0;
+body{
+    
 }
 
-#logo {
-    width: 200px;
-    height: 150px;
+.logo {
+    width: 150px ;
+    height: 150px ;
 }
 
-.flex-contrainer {
-display: flex;
+.flex-container {
+    display: flex;
 }
-
 .flex-container-wrap {
     display: flex;
     flex-wrap: wrap;
 }
 
 .topnav {
-background-color: blanchedalmond;
-justify-content: space-between;
-align-items: center;
-padding: 0.1rem 4rem;
+    background-color: rgb(255, 42, 42);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem 4rem;
 }
 
 .card {
-    width: 20rem;
-    height: 20rem;
-    background-color: mistyrose;
+    background-color: #4b4b4b;
+    width: 15rem;
+    height: 15rem;
+    text-align: center;
+    margin: 2px;
 }
 
-.text-center {
-    text-align: center;
+.search-container {
+    position: relative;
+    width: 300px;
+
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: 10px solid #ff0000;
+    border-radius: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+}
+
+.search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff0000a4;
+    color: #fff;
+    border: none;
+    padding: 20px 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+#cart{
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+}
+
+
+ /* Dodaj style CSS dla paska kategorii */
+ .sidebar {
+    width: 200px; /* Ustaw szerokość paska */
+    background-color: #fd4040; /* Ustaw kolor tła */
+    padding: 20px; /* Dodaj wewnętrzne marginesy */
+    box-sizing: border-box; /* Ustaw box-sizing na border-box, aby padding nie wpływał na szerokość */
+    
+}
+
+.category-list {
+    list-style: none; /* Usuń domyślne style listy */
+    padding: 0;
+    margin: 0;
+}
+
+.category-item {
+    margin-bottom: 10px; /* Dodaj odstęp między kategoriami */
+}
+
+.category-link {
+    text-decoration: none; /* Usuń podkreślenie linków */
+    color: #333; /* Ustaw kolor tekstu */
+}
+
+.fifty {
+    width: 94%;
+}
+
+.sixty{
+    width: 6.6%;
+}
+
+.icon{
+    
 }
