@@ -1,4 +1,7 @@
-.dodaj{
-    width: 100px;
-    height: 100px;
+body{
+    background-color: black;
+}
+.dick{
+    width: max-content;
+    height: max-content;
 }

@@ -1,10 +1,14 @@
 body{
-    
+    margin-top: 0%;
+    margin-left: 0%;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
 }
 
 .logo {
-    width: 150px ;
-    height: 150px ;
+    width: 250px ;
+    height: 100px ;
 }
 
 .flex-container {
@@ -16,18 +20,18 @@ body{
 }
 
 .topnav {
-    background-color: rgb(255, 42, 42);
+    background-color: rgb(0, 0, 0);
     justify-content: space-between;
     align-items: center;
     padding: 0.1rem 4rem;
 }
 
 .card {
-    background-color: #4b4b4b;
+    background-color: #272727;
     width: 15rem;
     height: 15rem;
     text-align: center;
-    margin: 2px;
+    margin: 0px;
 }
 
 .search-container {
@@ -39,7 +43,7 @@ body{
 .search-input {
     width: 100%;
     padding: 10px;
-    border: 10px solid #ff0000;
+    border: 10px solid #5eff00;
     border-radius: 15px;
     font-size: 16px;
     box-sizing: border-box;
@@ -55,7 +59,7 @@ body{
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #ff0000a4;
+    background-color: #5eff00a8;
     color: #fff;
     border: none;
     padding: 20px 15px;
@@ -73,8 +77,9 @@ body{
 
  /* Dodaj style CSS dla paska kategorii */
  .sidebar {
+    font-weight: bold;
     width: 200px; /* Ustaw szerokość paska */
-    background-color: #fd4040; /* Ustaw kolor tła */
+    background-color: rgb(0, 0, 0);
     padding: 20px; /* Dodaj wewnętrzne marginesy */
     box-sizing: border-box; /* Ustaw box-sizing na border-box, aby padding nie wpływał na szerokość */
     
@@ -92,7 +97,7 @@ body{
 
 .category-link {
     text-decoration: none; /* Usuń podkreślenie linków */
-    color: #333; /* Ustaw kolor tekstu */
+    color: #5eff00; /* Ustaw kolor tekstu */
 }
 
 .fifty {
@@ -100,9 +105,20 @@ body{
 }
 
 .sixty{
-    width: 6.6%;
+    width: 9.7%;
 }
 
 .icon{
     
 }
+
+.chuj{
+    color: #5eff00;
+}
+
+.kurka{
+    width: 120px ;
+    height: 120px ;
+}
+
+

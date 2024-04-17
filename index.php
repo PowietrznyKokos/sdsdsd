@@ -10,7 +10,7 @@
 
 <body>
     <header class="flex-container topnav">
-        <img src="img/magic1-mushroom.png" alt="logo" class="logo">
+        <img src="img/chuj1.png" alt="logo" class="logo">
 
         <div class="search-container">
             <form action="search.php" method="get">
@@ -20,33 +20,44 @@
         </div>
         <div class="icon">
             <a href="cart.php">
-                <img src="img/koszyk-Photoroom.png-Photoroom.png" alt="koszyk" id="cart">
+                <img src="img/koszyk-z-grzybkami-zielony.png" alt="koszyk" id="cart">
             </a>
             <a href="login.html">
-                <img src="img/uzytkownik-Photoroom.png-Photoroom.png" alt="login" id="cart">
+                <img src="img/green-silkroad-opponent.png" alt="login" id="cart">
             </a>
         </div>
     </header>
     <main class="flex-container">
         <div class="fifty flex-container-wrap">
             <div class="card text-center">
-                <h3>nazwa oferty</h3>
-                <p>cena:189,99zł</p>
+                <h3>Magiczny grzyb podlaski</h3>
+                <img src="img/kurka.jpg" alt="kurka" class="kurka">
+                <p>99,99/25g</p>
             </div>
             <?php
             include "display_products.php";
             ?>
         </div>
         <aside class="sixty sidebar">
-            <h3>Kategorie</h3>
+            <h3 class="chuj">Grube Tematy</h3>
             <ul class="category-list">
-                <li class="category-item"><a href="#" class="category-link">Kategoria 1</a></li>
-                <li class="category-item"><a href="#" class="category-link">Kategoria 2</a></li>
-                <li class="category-item"><a href="#" class="category-link">Kategoria 3</a></li>
+                <li class="category-item"><a href="#" class="category-link">Grzyby</a></li>
+                <li class="category-item"><a href="#" class="category-link">Zioło</a></li>
+                <li class="category-item"><a href="#" class="category-link">Kryształ</a></li>
+                <li class="category-item"><a href="#" class="category-link">Opiaty</a></li>
+                <li class="category-item"><a href="#" class="category-link">Kanabinole</a></li>
+                <li class="category-item"><a href="#" class="category-link">Psychostymulujące</a></li>
+                <li class="category-item"><a href="#" class="category-link">Halucynki</a></li>
+                <li class="category-item"><a href="#" class="category-link"></a></li>
+                <li class="category-item"><a href="małe-dziewczynki.php" class="category-link">Małe Dziewczynki</a></li>
+                <li class="category-item"><a href="#" class="category-link">Odam za darmo!</a></li>
                 <!-- Dodaj więcej kategorii, jeśli jest taka potrzeba -->
             </ul>
         </aside>
     </main>
+    
 </body>
+<footer>
 
+</footer>
 </html>
